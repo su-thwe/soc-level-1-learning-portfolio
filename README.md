@@ -23,3 +23,7 @@ This repository documents my progress through the TryHackMe SOC Level 1 path and
 ## Purpose
 
 This repository is not a list of room answers. It is a learning portfolio showing how I understand security concepts and communicate investigation findings clearly. Followed by small projects to further understand specific concepts.
+
+## Disclaimer
+
+This repository contains my personal learning notes from TryHackMe SOC Level 1 practice. It does not include flags, task answers, copied room content, or step-by-step solutions. The purpose is to document my understanding of SOC concepts and defensive security workflows.
