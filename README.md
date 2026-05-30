@@ -22,7 +22,7 @@ This repository documents my progress through the TryHackMe SOC Level 1 path and
 
 ## Purpose
 
-This repository is not a list of room answers. It is a learning portfolio showing how I understand security concepts and communicate investigation findings clearly. Followed by small projects to further understand specific concepts.
+This repository is not a list of room answers. It is a learning portfolio showing how I understand security concepts and communicate investigation findings clearly. Followed by small projects diving deeper into specific concepts.
 
 ## Disclaimer
 
