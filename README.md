@@ -11,18 +11,23 @@ This repository documents my progress through the TryHackMe SOC Level 1 path and
 - Incident response basics
 - Security documentation
 
-## Completed Rooms/ In Progress Rooms
+## Completed / In Progress Rooms
 
-| # | Room | Status | Main Skill | Writeup |
-|---|------|--------|------------|---------|
-| 1 | Junior Security Analyst Intro | Completed | SOC fundamentals | [View](./01-junior-security-analyst-intro/) |
-| 2 | SOC Role in Blue Team | Completed | Blue-team structure | [View](./02-soc-role-in-blue-team/) |
-| 3 | Human as Attack Vectors | In Progress | Social engineering awareness | [View](./03-human-as-attack-vectors/) |
+| # | Room | Status | Type | Main Skill | Writeup |
+|---|------|--------|------|------------|---------|
+| 1 | Junior Security Analyst Intro | Completed | Foundation Notes | SOC fundamentals | [View](./rooms/01-blue-team-introduction/01-junior-security-analyst-intro.md) |
+| 2 | SOC Role in Blue Team | Completed | Foundation Notes | Blue-team structure | [View](./rooms/01-blue-team-introduction/02-soc-role-in-blue-team.md) |
+| 3 | Humans as Attack Vectors | In Progress | Practical Notes | Social engineering awareness | [View](./rooms/01-blue-team-introduction/03-human-as-attack-vectors.md) |
 
+## Portfolio Outputs
+
+| Output | Type | Related Topic | Link |
+|---|---|---|---|
+| Phishing Triage Workflow | Mini Workflow | Humans as Attack Vectors | [View](./projects/phishing-triage-workflow/) |
 
 ## Purpose
 
-This repository is not a list of room answers. It is a learning portfolio showing how I understand security concepts and communicate investigation findings clearly. Followed by small projects diving deeper into specific concepts.
+This repository is not a list of room answers. It is a learning portfolio showing how I understand security concepts and communicate investigation findings clearly. Some rooms include related portfolio outputs, such as checklists, templates, small workflows or projects that connect the room topic to practical SOC work.
 
 ## Disclaimer
 

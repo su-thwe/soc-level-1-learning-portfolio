@@ -34,7 +34,7 @@ I avoid documenting room answers, flags, or copied task content. Instead, I focu
 |---|------|--------|------|------------------|
 | 1 | Junior Security Analyst Intro | Completed | Foundation Notes | SOC role summary |
 | 2 | SOC Role in Blue Team | Completed | Foundation Notes | Blue Team role map |
-| 3 | Human as Attack Vectors | In Progress | Practical Notes | Phishing triage checklist |
+| 3 | Human as Attack Vectors | In Progress | Practical Notes/ Mini Workflow | Phishing triage workflow |
 
 ## Skill Development Goals
 
@@ -57,7 +57,7 @@ I avoid documenting room answers, flags, or copied task content. Instead, I focu
 
 As this portfolio grows, I want it to support resume points such as:
 
-- Documented SOC Level 1 learning labs covering alert triage, escalation, and blue-team fundamentals
+- Documented SOC Level 1 Rooms covering alert triage, escalation, and blue-team fundamentals
 - Created beginner SOC workflows, including phishing triage and suspicious activity investigation checklists
 - Practiced writing clear technical documentation for cybersecurity investigations
 
