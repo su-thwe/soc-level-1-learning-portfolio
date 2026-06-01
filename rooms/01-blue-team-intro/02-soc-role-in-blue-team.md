@@ -54,7 +54,7 @@ From a SOC Level 1 Analyst and one can later build toward the following roles:
 
 ## 6. My Main Takeaway
 
-This room helped me understand that SOC L1 is only an entry point into cybersecurity that can be built up to connected to many other defensive roles. I also learned how specific responsibilities are split between different roles and how everyone work together when dealing with a breach. Patience and attention is all you need to become successful at anything.
+This room helped me understand that SOC L1 is only an entry point into cybersecurity that can be built up to connected to many other defensive roles. I also learned how specific responsibilities are split between different roles and how everyone work together when dealing with a breach.
 
 ## 7. Resume Value
 

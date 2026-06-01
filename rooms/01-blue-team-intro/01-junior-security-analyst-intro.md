@@ -45,7 +45,7 @@ A Junior SOC Analyst may be responsible for:
 
 ## 5. My Main Takeaway
 
-The biggest thing I learned is that SOC work is not a lone wolf using tools its part of a whole pack hunting in a similar rhythm. Though the role is beginner-friendly, I am surprised to learn how often the first line of defense against cyber incidents are SOC analysts.
+The biggest thing I learned is that SOC work is not done alone. A Junior SOC Analyst works as part of a team by reviewing alerts, collecting evidence, communicating findings, and escalating issues when needed. Though the role is beginner-friendly, I am surprised to learn how often the first line of defense against cyber incidents are SOC analysts.
 
 ## 6. Resume Value
 

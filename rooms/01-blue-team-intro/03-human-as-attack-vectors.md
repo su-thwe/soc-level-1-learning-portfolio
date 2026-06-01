@@ -6,8 +6,8 @@
 - Path: SOC Level 1
 - Room: Humans as attack vectors
 - Status: In progress
-- Type:
-- Main Topic:
+- Type: Practical Notes / Mini Workflow
+- Main Topic: 
 
 Focus Area:
 Social engineering, human risk, phishing awareness, SOC detection, security awareness
