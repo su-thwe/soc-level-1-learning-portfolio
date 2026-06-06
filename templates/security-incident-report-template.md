@@ -89,7 +89,7 @@ Possible examples:
 
 Root cause:
 
-> [Write your explanation here.]
+> [Write here.]
 
 ---
 
@@ -106,7 +106,7 @@ Include:
 
 Impact summary:
 
-> [Write your explanation here.]
+> [Write here.]
 
 ---
 
@@ -131,7 +131,7 @@ Examples:
 
 Recommendation:
 
-> [Write your recommendation here.]
+> [Write here.]
 
 ---
 
