@@ -1,21 +1,16 @@
 # Humans as Attack Vectors
 
-## 1. Room Overview
+## Room Information
 
 - Platform: TryHackMe
 - Path: SOC Level 1
 - Room: Humans as attack vectors
 - Status: In progress
 - Type: Practical Notes / Mini Workflow
-- Main Topic: 
+- Main Topic: How human behavior is exploited by attackers along with how defenders helps defend, detect, prevent and respond to them
 
-Focus Area:
-Social engineering, human risk, phishing awareness, SOC detection, security awareness
+## 1. Objective
 
-Goal:
-Understand how attackers exploit human behavior and how defenders can detect, prevent, and respond to these threats.
-
----
 
 ## 2. Key Concepts Learned
 
