@@ -11,15 +11,17 @@
 
 ## 1. Objective
 
+This room 
 
 ## 2. Key Concepts Learned
 
-### Concept 1: [Name of concept]
-Explanation in my own words:
+### Concept 1: Human Element 
 
-Why it matters in cybersecurity:
+Attack's POV: ask the gatekeeper to open the door, no point in breaking the gates. Humans provide access so target them.
 
-SOC/security relevance:
+| Initial Attack | Human Factor Exploited | Attack Progression | 
+|------------|------------|------------|
+| Compromise an executive's email account  | Trust in authority, lack of verification | Send fraudulent payment requests or impersonate executive | 
 
 ---
 
