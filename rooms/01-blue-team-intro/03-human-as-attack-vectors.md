@@ -25,12 +25,15 @@ Attack's POV: ask the gatekeeper to open the door, no point in breaking the gate
 
 ---
 
-### Concept 2: [Name of concept]
-Explanation in my own words:
+### Concept 2: Attacks on Humans
 
-Why it matters in cybersecurity:
+Social engineering -> exploit human psychology 
+A successfully designed tactic is designed to be trustworthy and emotional.
 
-SOC/security relevance:
+Common attacks:
+1. Phishing Attacks
+2. Malware Downloads
+3. Deepfakes/Impersonation
 
 ---
 
