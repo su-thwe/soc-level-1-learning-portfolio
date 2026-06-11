@@ -30,7 +30,7 @@ Attack's POV: ask the gatekeeper to open the door, no point in breaking the gate
 Social engineering -> exploit human psychology 
 A successfully designed tactic is designed to be trustworthy and emotional.
 
-Common attacks:
+Common attacks breakdown:
 1. Phishing Attacks
 2. Malware Downloads
 3. Deepfakes/Impersonation
