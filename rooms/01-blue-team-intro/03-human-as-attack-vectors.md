@@ -30,28 +30,12 @@ Attack's POV: ask the gatekeeper to open the door, no point in breaking the gate
 Social engineering -> exploit human psychology 
 A successfully designed tactic is designed to be trustworthy and emotional.
 
-Common attacks breakdown:
-1. Phishing Attacks
-2. Malware Downloads
-3. Deepfakes/Impersonation
+### Attack Vector Breakdown
 
----
-
-## 3. Attack Vector Breakdown
-
-### Attack Vector: [Example: Phishing / Impersonation / Baiting]
-
-How it works at a high level:
-
-Human behavior exploited:
-
-Possible business impact:
-
-Possible indicators:
-
-Relevant logs or data sources:
-
-Defensive controls:
+| Attack Vector | Description | Human Behavior Exploited | Possible Business Impact | Possible Indicators | Defense controls |
+|------------|------------|-------------|-------------|-------------|-------------|
+| Phishing | An attacker sends a message that appears to come from a trusted source. The message will usually convince the user to interact with the message. | Trust, fear, curiosity, urgency | Credential theft, account comprise, malware, data exposure | Suspicious sender address, mismatched domains, suspicious links or attachments | Email filtering, phishing awareness training, MFA |  
+| Malware Downloads | An attacker tricks the user to open or download a malicious file. | Curiosity, urgency, lack of verification | Endpoint compromise, data exposure, |  
 
 ---
 
