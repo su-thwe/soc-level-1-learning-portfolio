@@ -32,10 +32,11 @@ A successfully designed tactic is designed to be trustworthy and emotional.
 
 ### Attack Vector Breakdown
 
-| Attack Vector | Description | Human Behavior Exploited | Possible Business Impact | Possible Indicators | Defense controls |
+| Attack Vector | Description | Human Behavior Exploited | Possible Business Impact | Possible Indicators | Defensive controls |
 |------------|------------|-------------|-------------|-------------|-------------|
-| Phishing | An attacker sends a message that appears to come from a trusted source. The message will usually convince the user to interact with the message. | Trust, fear, curiosity, urgency | Credential theft, account comprise, malware, data exposure | Suspicious sender address, mismatched domains, suspicious links or attachments | Email filtering, phishing awareness training, MFA |  
-| Malware Downloads | An attacker tricks the user to open or download a malicious file. | Curiosity, urgency, lack of verification | Endpoint compromise, data exposure, |  
+| Phishing | An attacker sends a message that appears to come from a trusted source. The message will usually convince the user to interact with the message. | Trust, fear, curiosity, urgency | Credential theft, account compromise, malware, data exposure | Suspicious sender address, mismatched domains, suspicious links or attachments | Email filtering, phishing awareness training, MFA |  
+| Malware Downloads | An attacker tricks the user to open or download a malicious file such as a fake document, installer, or attachment | Curiosity, urgency, lack of verification | Endpoint compromise, data exposure, credential theft, malware infection | Unexpected file download, fake CAPTCHAs, browser redirects, strange device behavior | least privilege, user awareness training, block unsafe file types, Antivirus/EDR |
+| Deepfakes | An attacker uses AI-generated audio, video or images to impersonate loved ones or colleagues with the intent of convincing someone to send money, share credentials or reveal sensitive information. | Lack of verification, trust in authority, familiarity, urgency | Fraudulent payments, credential theft, data leakage, unauthorized access | Unknown urgent requests, slightly unnatural facial or audio, mismatched communication | MFA, awareness training, deepfake detection tools, payment verification policies |
 
 ---
 
