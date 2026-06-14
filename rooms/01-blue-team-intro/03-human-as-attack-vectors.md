@@ -40,7 +40,7 @@ A successfully designed tactic is designed to be trustworthy and emotional.
 
 ---
 
-## 4. SOC Analyst Perspective
+## SOC Analyst Perspective
 
 ### What I would monitor
 
