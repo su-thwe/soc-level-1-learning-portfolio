@@ -21,13 +21,37 @@ The goal of this portfolio is to show how I am building foundational blue-team s
 | `projects/` | Practical security workflows, reports, and portfolio outputs |
 | `templates/` | Reusable templates for reports, room writeups, and investigations |
 
+## Tools & Skills Practiced
+
+### Tools
+
+![Markdown](https://img.shields.io/badge/Markdown-Documentation-blue)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
+![Python](https://img.shields.io/badge/Python-Beginner%20Scripting-yellow)
+![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue)
+
+### Cybersecurity Skills
+
+![Incident Response](https://img.shields.io/badge/Incident%20Response-Documentation-red)
+![Phishing Analysis](https://img.shields.io/badge/Phishing-Analysis-purple)
+![Malware Triage](https://img.shields.io/badge/Malware-Static%20Triage-red)
+![Network Analysis](https://img.shields.io/badge/Network%20Traffic-Analysis-green)
+![NIST](https://img.shields.io/badge/NIST-Informed%20Response-lightgrey)
+![Security Reporting](https://img.shields.io/badge/Security-Reporting-blue)
+
 ## Featured Project Outputs
 
 | Project | Focus | Link |
 |---|---|---|
 | Phishing Triage Workflow | Social engineering / phishing response | [View Projects](./projects/) |
 | Network Traffic Analysis Incident Report | DNS, HTTP, tcpdump, incident reporting | [View Projects](./projects/) |
+| Defensive Malware Triage | Static Malware Triage Report | Malware behavior analysis, macro security, incident response mapping, defensive controls | [View](./projects/defensive-malware-triage/) |
 
 ## Notes
 
 This repository is a learning portfolio. Some scenarios are based on training labs or certificate activities, but all documentation is written in my own words and organized to demonstrate practical SOC analyst skills.
+
+
+
+
