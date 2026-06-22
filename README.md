@@ -46,7 +46,7 @@ The goal of this portfolio is to show how I am building foundational blue-team s
 |---|---|---|
 | Phishing Triage Workflow | Social engineering / phishing response | [View Projects](./projects/) |
 | Network Traffic Analysis Incident Report | DNS, HTTP, tcpdump, incident reporting | [View Projects](./projects/) |
-| Defensive Malware Triage | Static Malware Triage Report | Malware behavior analysis, macro security, incident response mapping, defensive controls | [View](./projects/defensive-malware-triage/) |
+| Defensive Malware Triage | Malware behavior analysis, macro security, incident response mapping, defensive controls | [View](./projects/defensive-malware-triage/) |
 
 ## Notes
 
