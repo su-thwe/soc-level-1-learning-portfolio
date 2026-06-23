@@ -23,16 +23,11 @@ The goal of this portfolio is to show how I am building foundational blue-team s
 
 ## Tools & Skills Practiced
 
-### Tools
-
 ![Markdown](https://img.shields.io/badge/Markdown-Documentation-blue)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 ![Python](https://img.shields.io/badge/Python-Beginner%20Scripting-yellow)
 ![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue)
-
-### Cybersecurity Skills
-
 ![Incident Response](https://img.shields.io/badge/Incident%20Response-Documentation-red)
 ![Phishing Analysis](https://img.shields.io/badge/Phishing-Analysis-purple)
 ![Malware Triage](https://img.shields.io/badge/Malware-Static%20Triage-red)
