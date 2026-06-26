@@ -38,6 +38,14 @@ A successfully designed tactic is designed to be trustworthy and emotional.
 | Malware Downloads | An attacker tricks the user to open or download a malicious file such as a fake document, installer, or attachment | Curiosity, urgency, lack of verification | Endpoint compromise, data exposure, credential theft, malware infection | Unexpected file download, fake CAPTCHAs, browser redirects, strange device behavior | least privilege, user awareness training, block unsafe file types, Antivirus/EDR |
 | Deepfakes | An attacker uses AI-generated audio, video or images to impersonate loved ones or colleagues with the intent of convincing someone to send money, share credentials or reveal sensitive information. | Lack of verification, trust in authority, familiarity, urgency | Fraudulent payments, credential theft, data leakage, unauthorized access | Unknown urgent requests, slightly unnatural facial or audio, mismatched communication | MFA, awareness training, deepfake detection tools, payment verification policies |
 
+### Concept 3: Defending Humans
+
+Involves two key tasks:
+1. Mitigation
+2. Detection
+
+M1: Anti-phishing tool -> M2: Employee Training -> SOC team handles the rest
+
 ---
 
 ## SOC Analyst Perspective
