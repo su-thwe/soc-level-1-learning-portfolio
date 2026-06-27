@@ -5,13 +5,13 @@
 - Platform: TryHackMe
 - Path: SOC Level 1
 - Room: Humans as attack vectors
-- Status: In progress
+- Status: Completed
 - Type: Practical Notes / Mini Workflow
-- Main Topic: How human behavior is exploited by attackers along with how defenders helps defend, detect, prevent and respond to them
+- Main Topic: Human as attack vectors
 
 ## 1. Objective
 
-This room 
+This room explores how human behavior is exploited by attackers along with how defenders helps defend, detect, prevent and respond to them.
 
 ## 2. Key Concepts Learned
 
@@ -19,11 +19,9 @@ This room
 
 Attack's POV: ask the gatekeeper to open the door, no point in breaking the gates. Humans provide access so target them.
 
-| Initial Attack | Human Factor Exploited | Attack Progression | 
+| Initial Attack | Human Factor Exploited | Attack Progression |
 |------------|------------|------------|
 | Compromise an executive's email account  | Trust in authority, lack of verification | Send fraudulent payment requests or impersonate executive |
-
----
 
 ### Concept 2: Attacks on Humans
 
@@ -46,6 +44,13 @@ Involves two key tasks:
 
 M1: Anti-phishing tool -> M2: Employee Training -> SOC team handles the rest
 
+Types of Mitigations:
+
+1. Anti-phishing solution - Tool that blocks phishing emails before it reaches the user
+2. Antivirus/EDR solution - Antivirus on hosts would help prevent humans from running malware
+3. "Trust but verify" principle - Train employees to detect and verify suspicious requests
+4. Security awareness training - Teach and train employees how to detect phishing through simulations and awareness
+
 ---
 
 ## SOC Analyst Perspective
@@ -55,6 +60,7 @@ M1: Anti-phishing tool -> M2: Employee Training -> SOC team handles the rest
 - Email security logs for suspicious senders, links, attachments, spoofed domain, and mass-email patterns.
 - Endpoint alerts for downloaded files, suspicious process execution, malware detections or unusual browser activity.
 - Authentication logs for unusual sign-ins, failed login attempts, new devices, or MFA fatigue attempts.
+- 
 
 ### Possible alerts
 
@@ -104,7 +110,7 @@ M1: Anti-phishing tool -> M2: Employee Training -> SOC team handles the rest
 
 ## 6. Mini Case Study
 
-Scenario:
+Scenario: 
 
 What happened:
 
