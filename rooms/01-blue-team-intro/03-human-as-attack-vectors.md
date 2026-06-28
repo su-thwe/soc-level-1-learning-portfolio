@@ -11,13 +11,13 @@
 
 ## 1. Objective
 
-This room explores how human behavior is exploited by attackers along with how defenders helps defend, detect, prevent and respond to them.
+This room explores how human behavior is exploited by attackers along with how defenders help defend, detect, prevent and respond to them.
 
 ## 2. Key Concepts Learned
 
 ### Concept 1: Human Element
 
-Attack's POV: ask the gatekeeper to open the door, no point in breaking the gates. Humans provide access so target them.
+Attacker's POV: ask the gatekeeper to open the door, no point in breaking the gates. Humans provide access so target them.
 
 | Initial Attack | Human Factor Exploited | Attack Progression |
 |------------|------------|------------|
@@ -26,7 +26,7 @@ Attack's POV: ask the gatekeeper to open the door, no point in breaking the gate
 ### Concept 2: Attacks on Humans
 
 Social engineering -> exploit human psychology
-A successfully designed tactic is designed to be trustworthy and emotional.
+A successfully designed tactic -> trustworthy and emotional.
 
 ### Attack Vector Breakdown
 
@@ -60,13 +60,13 @@ Types of Mitigations:
 - Email security logs for suspicious senders, links, attachments, spoofed domain, and mass-email patterns.
 - Endpoint alerts for downloaded files, suspicious process execution, malware detections or unusual browser activity.
 - Authentication logs for unusual sign-ins, failed login attempts, new devices, or MFA fatigue attempts.
-- 
 
 ### Possible alerts
 
-- 
-- 
-- 
+- Sign-in from an unusual location, IP address or device
+- Multiple failed login attempts
+- Endpoint downloaded or executed a suspicious file
+- User reported a phishing or impersonation attempt
 
 ### Investigation questions
 
@@ -80,61 +80,43 @@ Types of Mitigations:
 
 ### Possible response steps
 
-- 
-- 
-- 
+- Confirm which users received or interacted with the suspicious message
+- Remove the phishing attempt from defined endpoint
+- Isolate affected endpoints if malicious code was executed
+- Escalate to the incident response team if credentials, files, or systems were accessed or breached.
 
 ---
 
-## 5. Defensive Recommendations
+## 5. Mini Case Study
 
-### Technical controls
+Scenario: An employee receives an email that appears to come from a senior manager. The message says an invoice must be review urgently and includes a link to download the document.
 
-- 
-- 
-- 
+What happened: The attacker used authority and urgency to pressure the employee into trusting and responding to the message. The link redirected the employee to a suspicious website that attempted to download a malicious file.
 
-### User-awareness controls
-
-- 
-- 
-- 
-
-### Process improvements
-
-- 
-- 
-- 
-
----
-
-## 6. Mini Case Study
-
-Scenario: 
-
-What happened:
-
-Initial indicator:
+Initial indicator: The employee reported the email since they noticed slight differences from the company's domain in the sender's address.
 
 Investigation steps:
+- Review email headers, sender address, links, and attachment details
+- Check if this email is spreading to others
+- Search DNS logs to see whether anyone visited the link
+- Check endpoint logs to confirm whether the file was downloaded or executed.
+- Review authentication logs for suspicious sign-ins after the email was received.
 
-Potential impact:
+Potential impact: Credential theft, malware infection, data exposure, unauthorized access, or email compromise.
 
-Recommended containment:
+Recommended containment: Block the sender and malicious domain, remove the email from inboxes, reset credentials for affected users, revoke sessions, and isolate endpoints that executed the file.
 
-Long-term prevention:
+Long-term prevention: Improve phishing training, enforce MFA, strength email filtering and apply "Trust but verify" principle.
 
 ---
 
 ## 7. Reflection
 
-What I learned:
+What I learned: The main reason for why humans are the weakest link in complex systems.
 
-What confused me at first:
+How this connects to SOC Level 1 work: SOC analysts need to investigate suspicious emails, user reports, login alerts, endpoint detections, and signs of account compromise.
 
-How this connects to SOC Level 1 work:
-
-What I want to learn next:
+What I want to learn next: How automation helps a SOC analysts daily work and how its coded.
 
 ---
 
