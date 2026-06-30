@@ -7,27 +7,28 @@
 * Room: Systems as Attack Vectors
 * Status: In progress
 * Type: Practical Notes / Mini Workflow
-* Main Topic:
-
----
+* Main Topic: How attacks exploit vulnerable and misconfigured systems and how SOC analysts can protect and prevent them
 
 ## 1. Objective
 
-This room focuses on:
-
----
+This room focuses on how a SOC analyst can protect systems as well as why and how systems are exploited and targeted by attackers.
 
 ## 2. Key Concepts Learned
 
-### Concept 1:
+### Concept 1: What is a System?
 
-Explanation:
+Even with advanced protocols that identify and protect systems against exploitation of human behavior, if the lock of the castle is fragile then the attacker can break in without notice.
 
-| Key Idea | Meaning | Why It Matters |
-| -------- | ------- | -------------- |
-|          |         |                |
-|          |         |                |
-|          |         |                |
+System -> the heart of where data is stored
+
+Attacker's POV:
+Breach one user email -> access a single mailbox
+Compromise mail server -> control thousands of mailboxes
+
+| Breached System | Attack Value |
+| -------- | ------- |
+| A student personal computer | Steal steam profile and add PC to a botnet |
+| Mail server of criminal law company | Blackmail victim and dump all mailboxes |
 
 ---
 
