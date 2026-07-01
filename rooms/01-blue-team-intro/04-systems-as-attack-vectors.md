@@ -19,7 +19,7 @@ This room focuses on how a SOC analyst can protect systems as well as why and ho
 
 Even with advanced protocols that identify and protect systems against exploitation of human behavior, if the lock of the castle is fragile then the attacker can break in without notice.
 
-System -> the heart of where data is stored
+**System** -> the heart of where data is stored
 
 Attacker's POV:
 Breach one user email -> access a single mailbox
@@ -32,33 +32,57 @@ Compromise mail server -> control thousands of mailboxes
 
 ---
 
-### Concept 2:
+### Concept 2: Attacks on systems
 
-Explanation:
+All attacks start out the same way with the goal to gain **access** to the target system.
 
-| Key Idea | Meaning | Example |
+| Types of Attack | Meaning | Example |
 | -------- | ------- | ------- |
-|          |         |         |
-|          |         |         |
-|          |         |         |
+| Human-Led | System users start the attack | Inserting a suspicious USB found on the street |
+| Vulnerabilities | Software Security flaws | Zero days, Outdated Windows hosts |
+| Supply Chain | Comprising an app or its library present on your PC and pushing an update to all its users | SolarWinds breach |
 
 ---
 
-### Concept 3:
+### Concept 3: Vulnerabilities
 
-Explanation:
+**Zero-day** -> when an attacker discovers a vulnerability before anyone does
+
+**CVE number** (Common Vulnerabilities and Exposures) -> assigned when a vulnerability is made public -> also the start of the race for attackers and defenders
+
+CVE answer -> **a patch** (update)
+
+---
+
+### Concept 4: Misconfigurations
+
+**Misconfiguration** -> mistake in how the system was setup -> for example having a weak password or having unrestricted access
+
+Response -> **better setup**
 
 ---
 
-## 3. Attack Vector Breakdown
+### Concept 5: Mitigation
 
-| Attack Vector | Description | System Weakness Exploited | Possible Business Impact | Possible Indicators | Defensive Controls |
-| ------------- | ----------- | ------------------------- | ------------------------ | ------------------- | ------------------ |
-|               |             |                           |                          |                     |                    |
-|               |             |                           |                          |                     |                    |
-|               |             |                           |                          |                     |                    |
+M1: Patched software -> M2: Antivirus solution -> SOC team handle the rest
+
+Most common mitigation measures for system protection
+| Mitigation | Description |
+| -------- | ---------- |
+| Patch management | Track and patch vulnerabilities of systems |
+| Training for IT | Train IT team of the risks of misconfigurations |
+| Network protection | Restrict system to trusted IP and people |
+| Antivirus Solution | Detect/stop many attacks |
 
 ---
+
+## 3. Systems at Risk Breakdown
+
+| Risk Alert | Breach Factor | Remediation Plan |
+| -------- | -------- | -------- |
+| Mail server affected by CVE-2024-49040 | Software vulnerability | Patch |
+| Brute-force admin panel of website and placed malware links | Credentials | Change admin password to a secure password |
+| Trusted 3D application starts running malicious CMD commands after recent updates | Supply chain attack | Investigate the supply chain attack with the update |
 
 ## 4. SOC Analyst Perspective
 
