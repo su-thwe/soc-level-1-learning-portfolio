@@ -5,7 +5,7 @@
 * Platform: TryHackMe
 * Path: SOC Level 1
 * Room: Systems as Attack Vectors
-* Status: In progress
+* Status: Completed
 * Type: Practical Notes / Mini Workflow
 * Main Topic: How attacks exploit vulnerable and misconfigured systems and how SOC analysts can protect and prevent them
 
@@ -88,15 +88,10 @@ Most common mitigation measures for system protection
 
 ### What I would monitor
 
-*
-*
-*
-
-### Possible alerts
-
-*
-*
-*
+* Vulnerability scan results for outdated software, missing patches, and exposed services
+* Endpoint alerts for suspicious processes, malware execution or unusual command-line activity
+* System configuration changes (new services, permission changes or disable security tools)
+* Network logs for suspicious outbound connections, port scanning, or traffic to known malicious IP/domains
 
 ### Investigation questions
 
@@ -113,9 +108,13 @@ Most common mitigation measures for system protection
 
 ### Possible response steps
 
-*
-*
-*
+* Identify affected system, owner and business impact
+* Check if alert was an attempt or compromise
+* Review logs from authentication, endpoint, network and application sources
+* Isolate affected system if compromise or malware suspected
+* Block malicious IPs, domains, hashes or accounts
+* Apply patches or fix misconfigurations
+* Escalate if there is evidence of data access, malware execution, lateral movement, or supply chain compromise
 
 ---
 
@@ -123,82 +122,38 @@ Most common mitigation measures for system protection
 
 ### Technical controls
 
-*
-*
-*
-
-### Monitoring and detection controls
-
-*
-*
-*
+* Keep OS, applications and services patched
+* Use antivirus/EDR to detect
+* Enforce MFA for admin accounts and critical systems
+* Apply least privilege
+* Restrict exposed services using firewall rules, VPNs and trusted IP ranges
+* Disable unused services, default accounts and unnecessary ports
 
 ### Process improvements
 
-*
-*
-*
+* Create a regular patch management process
+* Train IT staff on secure configuration and common misconfiguration risks
+* Require review before exposing systems to the internet
+* Review third-party software and dependencies before deployment
 
 ---
 
-## 6. Mini Case Study
+## 6. Reflection
 
-### Scenario
+What I learned: Attackers don't always have to target the person directly, they can target weak systems, services, applications or third-party software to gain access.
 
-Scenario:
+How this connects to SOC Level 1 work: A SOC analyst needs to understand whether an alert shows an attempted attack, a successful compromise, or a system weakness that needs remediation.
 
-### What happened
-
-What happened:
-
-### Initial indicator
-
-Initial indicator:
-
-### Investigation steps
-
-*
-*
-*
-
-### Potential impact
-
-Potential impact:
-
-### Recommended containment
-
-Recommended containment:
-
-### Long-term prevention
-
-Long-term prevention:
-
----
-
-## 7. Reflection
-
-### What I learned
-
-What I learned:
-
-### What confused me at first
-
-What confused me at first:
-
-### How this connects to SOC Level 1 work
-
-How this connects to SOC Level 1 work:
-
-### What I want to learn next
-
-What I want to learn next:
+What I want to learn next: How AI agents would be prone to supply chain attacks due to reliance on third party sources and increased attack surface.
 
 ---
 
 ## 8. Skills Demonstrated
 
-*
-*
-*
-*
-*
+* Understanding system-based attack vectors
+* Vulnerability and misconfiguration analysis
+* SOC alert investigation thinking
+* Basic incident response documentation
+* Defensive security recommendations
+* Authentication and endpoint monitoring awareness
+* Supply chain attack awareness
